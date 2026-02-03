@@ -2,8 +2,8 @@ import streamlit as st
 import sqlite3
 from datetime import datetime
 import openai
-from anthropic import Anthropic
-import google.generativeai as genai
+from anthropic import Anthropic 
+import google.genai as genai
 from sqlalchemy import create_engine, Column, Integer, String, Text, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
